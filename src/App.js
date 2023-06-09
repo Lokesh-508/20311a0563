@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   componentDidUpdate() {
-    document.title = this.props.t('title'); // when user switches language
+    document.title = this.props.t('Train Sheduler'); // when user switches language
   }
 
   handleInputChange = selectedStation => {
